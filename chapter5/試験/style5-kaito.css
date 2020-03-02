@@ -1,0 +1,39 @@
+*{
+  width: 0px;
+  height :0px;
+  box-sizing: border-box;
+}
+
+header{
+  width: 10px;
+}
+
+.headline{
+  font-size: 22px;
+}
+
+nav{
+  text-align: center;
+}
+
+.list{
+  padding-left: 40px;
+}
+
+
+header .headerline {
+  text-lign: center;
+  font-size: 22px;
+}
+
+.nav{
+  
+}
+
+.list{
+
+}
+
+.list-item{
+  
+}
