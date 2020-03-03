@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*◎*/
+
+.clearfix ::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/*clearfix書けるように*/
+
+/*a {
+	text-decoration: none;
+}*/
+/* 文字にデコレーションしないで*/
+
+
+.main-visual {
+	width: auto;
+	height: 400px;
+	/*中央に配置*/
+	/*margin: 0 auto;*/
+
+	background-image:url(img/mv.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+/*.main-visual-img {
+
+}*/
+
+.blog-title {
+	margin: 20px;
+	/*解答は　padding*/
+}
+
+/*mein-visual*/
+
+/*ここから下の要素*/
+main {
+	width: 840px;
+/*	height: 1000px;*/
+	margin: 50px auto;
+}
+/*.blog {
+	width: auto;
+	height:auto;
+	/*中央に配置*/
+
+}
+.blog-item1 {
+	margin-bottom: 30px;
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 30px;
+}
+.blog-item2 {
+	margin-bottom: 30px;
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 30px;
+}
+.blog-item3 {
+	margin-bottom: 30px;
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 30px;
+}
+.blog-item4 {
+	margin-bottom: 30px;
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 30px;
+}
+/* ここまで親*/
+
+/*.logo {
+	padding-top: 50px;
+
+
+}
+.blog-text {
+	padding-top: 30px;
+	font-size: 20px;
+	line-height: 0.5;
+
+}
+.weblink {
+	font-color: #333;
+	padding-bottom: 30px;
+	/*webサイトが青色にならないようには？*/
+}
+/*
+
+/*blog*/
