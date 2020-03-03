@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix ::after {
+	content: "";
+
+	clear: done;
+}
+
+main {
+	width: 100%;
+	height: 1000px;
+}
+.main-head {
+	width: 400px;
+	height: 800px;
+	background-image: url(img/width:mv.jpg);
+	background-size: cover;
+    /*画像の表示の仕方を入れる*/
+    /*画像を反映させる*/
+}
+.main-text {
+	font-size: 20px;
+	line-height:  0.5;
+}
+.blog {
+	width: 100%;
+	height: 400px;
+
+}
+.blog-text {
+	font-size: 20px;
+	line-height: 0.5;
+
+}
+.link {
+	font-color: #333;
+	/*webサイトが青色にならないようにする*/
+}
